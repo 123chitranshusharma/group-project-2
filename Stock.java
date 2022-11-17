@@ -1,9 +1,6 @@
-// Program to find best buying and 
-// selling days
-
 import java.util.ArrayList;
  
-// Solution structure
+
 
 class Interval 
 {
@@ -75,15 +72,6 @@ class StockBuySell
             Interval e = new Interval();
 
             e.buy = i++;
-
-            // Store the index of minima
- 
-
-            // Find Local Maxima.  Note that the 
-
-            // limit is (n-1) as we are comparing 
-
-            // to previous element
 
             while ((i < n) && 
 
